@@ -44,8 +44,7 @@ function prestamo() {
 </table>
 </div><br>
 <button onclick= "calcularTotalplata()">Total plata prestada</button><br><br>
-<button onclick= "calcularInteres()">Total intereses</button><br><br>
-<p>Nota: intereses pendientes por pago mes de marzo(Maricela Orozco): 249.500</p>`
+<button onclick= "calcularInteres()">Total intereses</button><br><br>`
 
 }
 function calcularTotalplata(){
