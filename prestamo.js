@@ -37,7 +37,7 @@ function prestamo() {
 </tr>
 <tr>
     <td>Isabel Vecina</td>
-    <td>262.000</td>
+    <td>188.000</td>
     <td>10%</td>
 </tr>
 
@@ -49,7 +49,7 @@ function prestamo() {
 }
 function calcularTotalplata(){
 
-    let suma =[4000000,1000000,4000000,500000,1000000,262000]
+    let suma =[4000000,1000000,4000000,500000,1000000,188000]
     let total = 0;
 
     for(let i =0; i < suma.length; i++){
@@ -60,7 +60,7 @@ function calcularTotalplata(){
 }
 function calcularInteres(){
 
-    let suma =[4000000*5/100,1000000*5/100,4000000*5/100,500000*4.5/100,1000000*5/100,262000*5/100]
+    let suma =[4000000*5/100,1000000*5/100,4000000*5/100,500000*4.5/100,1000000*5/100,188000*5/100]
     let total = 0;
 
     for(let i =0; i < suma.length; i++){
