@@ -1,6 +1,6 @@
 :root {
     --primary-bg-color: rgb(147, 209, 248);
-    --hover-bg-color: blue;
+    --hover-bg-color: rgb(110, 197, 251);
     --text-color: rgb(2, 1, 15);
     --button-border-color: #ccc; /* Ajusta el color según tus necesidades */
     --button-border-radius: 2px;
