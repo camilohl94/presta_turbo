@@ -1,6 +1,6 @@
 function prestamo() {
     return ` <div class="div1" >
-    <h1>Prestamos turbo</h1>
+    <h1>Prestamo Turbo</h1>
 </div>
 <div class="fondo"> 
 <table id ="tablaPrestamo" cellpadding="4" cellspacing="10">
