@@ -3,7 +3,7 @@ function prestamo() {
     <h1>Prestamos turbo</h1>
 </div>
 <div class="fondo"> 
-<table id ="tablaPrestamo" border="3" cellpadding="4" cellspacing="10">
+<table id ="tablaPrestamo" cellpadding="4" cellspacing="10">
  
 <tr>
     <th>Nombre</th>
