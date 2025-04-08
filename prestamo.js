@@ -27,21 +27,17 @@ function prestamo() {
 </tr>
 <tr>
     <td>Sandy Luci Blandon Trespalacios</td>
-    <td>1000000$</td>
+    <td>500000$</td>
     <td>10%</td>
 </tr>
-<tr>
-    <td>Yinet Palomeque Suarez</td>
-    <td>300000$</td>
-    <td>10%</td>
-</tr>
+
 
 </table>
 </div><br>
 <button onclick= "calcularTotalplata()">Total plata prestada</button><br><br>
 <button onclick= "calcularInteres()">Total intereses</button><br><br>`
 
-}function calcularTotalplata(){    let suma =[4000000,500000,188000,1000000,300000]
+}function calcularTotalplata(){    let suma =[4000000,500000,188000,500000]
     let total = 0;
 
     for(let i =0; i < suma.length; i++){
@@ -49,7 +45,7 @@ function prestamo() {
       
     }
     alert("La suma total de la plata prestada es: " + total);
-}function calcularInteres(){    let suma =[4000000*5/100,500000*5/100,188000*5/100,1000000*5/100,300000*5/100]
+}function calcularInteres(){    let suma =[4000000*5/100,500000*5/100,188000*5/100,500000*5/100]
     let total = 0;
 
     for(let i =0; i < suma.length; i++){
